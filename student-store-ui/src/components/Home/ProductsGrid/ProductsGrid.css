@@ -34,8 +34,38 @@ p{
 }
 
 .only-products{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+@media only screen and (min-width: 500px) {
+    .only-products{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .only-products{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .only-products{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .only-products{
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .only-products{
+        grid-template-columns: repeat(5, 1fr); 
+    }
 }
 
 input{
