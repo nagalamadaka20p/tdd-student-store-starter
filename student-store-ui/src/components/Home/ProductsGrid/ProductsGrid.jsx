@@ -1,28 +1,33 @@
 import "./ProductsGrid.css"
 import * as React from "react"
+import ProductCard from "./ProductCard/ProductCard"
 
-export default function ProductsGrid({products, handleAddItemToCart, handleRemoveItemFromCart}) {
-    {products.map((product) => {
-        return(
-            <ProductCard showDescription = {false}/>
-        )
-    })}
-
+export default function ProductsGrid({getQuantity, products, handleAddItemToCart, handleRemoveItemFromCart, shoppingCart, query, setQuery, handleOnSearch, setCategory}) {
+    
     return (
         <div className="product-grid">
-            <form action="" className="productsGrid">
-                <input type="text" />
-                <button type="submit">Search!</button>
+            <form action="" className="productsGrid"> 
+                <input type="text" className="search-bar" onChange={event => setQuery(event.target.value)}/>
+                <button type="button" className="search-button" onClick = {() => handleOnSearch}>Search!</button>
             </form>
+
             <nav className="categoriesNav">
                 <ul>
-                    <li><a href="">All</a></li>
-                    <li><a href="">Clothing</a></li>
-                    <li><a href="">Food</a></li>
-                    <li><a href="">Accessories</a></li>
-                    <li><a href="">Tech</a></li>
+                    <li><button onClick = {() => setCategory("all")}>All</button></li>
+                    <li><button onClick = {() => setCategory("clothing")}>Clothing</button></li>
+                    <li><button onClick = {() => setCategory("food")}>Food</button></li>
+                    <li><button onClick = {() => setCategory("accessories")}>Accessories</button></li>
+                    <li><button onClick = {() => setCategory("tech")}>Tech</button></li>
                 </ul>
             </nav>
+            <div className="only-products">
+                {products.map((product) => {
+                    return(
+                        <ProductCard product = {product} key = {product.id} productId ={product.id} handleAddItemToCart = {handleAddItemToCart} handleRemoveItemFromCart = {handleRemoveItemFromCart} 
+                        showDescription = {false} quantity = {getQuantity(product)}/>
+                    )
+                })}
+            </div>
         </div>
     )
 }

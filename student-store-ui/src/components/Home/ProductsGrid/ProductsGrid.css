@@ -1,5 +1,8 @@
 .categoriesNav ul{
     list-style: none;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
 }
 
 .categoriesNav li{
@@ -8,14 +11,47 @@
     margin: 10px 5px;
 }
 
-.categoriesNav a{
+.categoriesNav button{
     text-decoration: none;
     letter-spacing: 0.1em;
     color: black;
     line-height: 3em;
     transition: all ease-out 300ms;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 1px 3px;
+    border: none;
+    background-color: blanchedalmond;
+}
+
+.categoriesNav button:hover{
+    border-bottom: 3px solid rgb(181, 190, 166);
 }
 
 p{
     margin: 0px;
+}
+
+.only-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    box-sizing: border-box;
+    border: solid darkslategray 2px;
+    width: 200px;
+    padding: 3px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button{
+    border: solid darkslategray 2px;
+    border-radius: 5px;
+    height: 28.5px;
+    padding: 5px;
+    margin: 10px 10px;
 }

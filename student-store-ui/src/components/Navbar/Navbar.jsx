@@ -1,19 +1,21 @@
 import * as React from "react"
 import "./Navbar.css"
 import Logo from "../Navbar/Logo/Logo"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Link } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
 
 
 export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="">Home</a>
-      <a href="">About Us</a>
-      <a href="">Contact Us</a>
+      <Link to = "/" className="navLink">Home</Link>
+      <HashLink className="navLink" to="/#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+      About Us</HashLink>
+      <HashLink className="navLink" to="/#contact" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+      Contact Us </HashLink>
       <Logo />
     </nav>
-    
   )
 }
 
