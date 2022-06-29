@@ -149,7 +149,6 @@ export default function App() {
         let {purchase} = data;
         
         let recepitToPrint = purchase.receipt;
-        
         setReceipt(recepitToPrint)
         setError("success");
       })

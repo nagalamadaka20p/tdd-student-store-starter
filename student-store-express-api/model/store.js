@@ -39,6 +39,7 @@ function totalWithTax(subtotal){
 function createReceipt(cart, products, total, subtotal, userInfo){
     let eachLineReceipt = [];
     const cartItems = Object.values(cart);
+    eachLineReceipt.push(`${userInfo.name}'s Receipt`);
     const receipt = cartItems.map((item) => {
         const product = findProductById(products, item.itemId);
         return {
@@ -49,6 +50,8 @@ function createReceipt(cart, products, total, subtotal, userInfo){
     }).map((item) => {
         eachLineReceipt.push( `${item.quantity} x ${item.name} @ ${item.price}`);
     });
+    eachLineReceipt.push(`Subtotal: $${formatter.format(subtotal)}`);
+    eachLineReceipt.push(`Total: $${formatter.format(total)}`);
     return eachLineReceipt;
 }
 

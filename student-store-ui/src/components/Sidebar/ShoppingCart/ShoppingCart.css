@@ -46,3 +46,22 @@
 .notification{
     font-weight: normal;
 }
+
+td{
+    color: #e0e9cd;
+    font-weight: 250;
+    font-size: 15px;
+    width: 100px;
+}
+
+th{
+    color: #e0e9cd;
+    font-weight: 450;
+    font-size: 18px;
+    text-align: left;
+}
+
+tr{
+    width: 50px;
+    margin-bottom: 15px;
+}

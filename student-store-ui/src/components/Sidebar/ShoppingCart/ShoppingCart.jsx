@@ -47,15 +47,29 @@ export default function ShoppingCart({isOpen, products, shoppingCart}){
             :
             <div>
                 <h1 className="item">Items in Cart</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {shoppingCart.map(cart => {
+                            return(
+                                <tr>
+                                    <td>{getName(cart.itemId)}</td>
+                                    <td>{cart.quantity}</td>
+                                    <td>${Number(getPrice(cart.itemId) * cart.quantity).toFixed(2)}</td>
+                                </tr>
+                            )
+                        }
+                        )}
+                    </tbody>
+                </table>
+            
 
-                {shoppingCart.map(cart => {
-                    return(
-                        <div className="cartResults">
-                            <h3 className="cart-product-price">${getPrice(cart.itemId)} per {getName(cart.itemId)}</h3>
-                            <h4 className="cart-product-quantity">{cart.quantity} items</h4>
-                        </div>
-                    )
-                })}
                 <h3 className="subtotal">Subtotal: ${sumPrices(shoppingCart)}</h3>
                 <h3 className="tax">Tax: ${(sumPrices(shoppingCart)*0.0875).toFixed(2)}</h3>
                 <h3 className="total-price">Total including tax: ${(sumPrices(shoppingCart) * 1.0875).toFixed(2)}</h3>

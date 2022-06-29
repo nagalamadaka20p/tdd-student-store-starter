@@ -19,7 +19,6 @@ router.get('/:productId', async (req, res, next) => {
     try{
         const productId = req.params.productId;
         const product = await StoreModel.fetchProductById(productId);
-        console.log('product: ', product);
         if (!product) {
             throw new NotFoundError('Product not found');
         }
@@ -34,9 +33,7 @@ router.get('/:productId', async (req, res, next) => {
 router.post('/', async(req, res, next) =>{
     try{
         const cart = req.body.shoppingCart;
-        console.log('cart: ', cart);
         const userInfo = req.body.user;
-        console.log('userInfo: ', userInfo);
         const newPurchase = await StoreModel.purchaseProducts(cart, userInfo)
         res.status(201).json(newPurchase)
     }

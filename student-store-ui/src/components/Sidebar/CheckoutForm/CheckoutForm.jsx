@@ -2,8 +2,6 @@ import "./CheckoutForm.css"
 import { Link } from "react-router-dom"
 
 export default function CheckoutForm({isOpen, checkoutForm, shoppingCart, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, error, receipt, setReceipt}){
-    console.log('receipt: ', receipt);
-    console.log('error: ', error);
     let error2 = JSON.stringify(error); 
     return(
         <div className="checkout-form">
@@ -19,10 +17,13 @@ export default function CheckoutForm({isOpen, checkoutForm, shoppingCart, handle
             <button className="checkout-button" onClick={() => handleOnSubmitCheckoutForm(checkoutForm, shoppingCart, receipt, setReceipt)}> Checkout </button>
             {error == "success" ? 
             <div className="success">
-                <h3 className="success">{`Success! You can expect to receive your items soon!`}</h3>
-                {receipt.map((line) => {
-                    return <p className="receipt-line">{line}</p>
-                })}
+                <h3 >{`Success! You can expect to receive your items soon!`}</h3>
+                <div className="receipt">
+                    {receipt.map((line) => {
+                        return <p className="receipt-line">{line}</p>
+                    })}
+                </div>
+                
                 
             </div>
                 : 
