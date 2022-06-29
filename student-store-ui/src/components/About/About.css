@@ -3,3 +3,12 @@
     margin-left: 150px;
     padding: 10px;
 }
+
+.aboutDesc{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#about{
+    text-align: center;
+}

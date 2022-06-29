@@ -3,7 +3,7 @@ import CheckoutForm from "./CheckoutForm/CheckoutForm"
 import ShoppingCart from "./ShoppingCart/ShoppingCart"
 import "./Sidebar.css"
 
-export default function Sidebar({isOpen, shoppingCart, products, checkoutForm, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, handleOnToggle, error}) {
+export default function Sidebar({isOpen, shoppingCart, products, checkoutForm, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, handleOnToggle, error, receipt, setReceipt}) {
   return (
     <aside className= {isOpen? "sidebar open" : "sidebar"} >
       {isOpen?
@@ -11,7 +11,7 @@ export default function Sidebar({isOpen, shoppingCart, products, checkoutForm, h
         <button className="toggle-button" onClick = {() => handleOnToggle()}><img src="../../src/menu.png" alt="menu img" /></button>
         <ShoppingCart shoppingCart={shoppingCart} products = {products} isOpen = {isOpen}/>
         <CheckoutForm shoppingCart={shoppingCart} checkoutForm = {checkoutForm} handleOnSubmitCheckoutForm = {handleOnSubmitCheckoutForm} 
-        isOpen = {isOpen} handleOnCheckoutFormChange ={handleOnCheckoutFormChange} error = {error}/>
+        isOpen = {isOpen} handleOnCheckoutFormChange ={handleOnCheckoutFormChange} error = {error} receipt = {receipt} setReceipt = {setReceipt}/>
       </div>
       :
       <nav className="nav">

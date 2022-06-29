@@ -145,5 +145,1042 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:22:02.990Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:23:29.736Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:23:53.708Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:24:58.001Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:25:24.524Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:26:16.724Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:27:29.897Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:29:02.968Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:29:39.592Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:29:59.278Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": {},
+      "createdAt": "2022-06-28T23:30:27.836Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "NaN",
+      "createdAt": "2022-06-28T23:31:54.263Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:33:02.665Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:33:30.158Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:33:58.849Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:36:52.223Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:37:39.449Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:37:50.268Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": null,
+      "createdAt": "2022-06-28T23:38:40.104Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 5.41575,
+      "createdAt": "2022-06-28T23:40:30.784Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 5.42,
+      "createdAt": "2022-06-28T23:41:10.000Z",
+      "receipt": {}
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 5.42,
+      "createdAt": "2022-06-28T23:42:07.255Z",
+      "receipt": "2 x Rice Krispies @ 0.99\n2 x Flamin Hot Cheetos @ 1.50"
+    },
+    {
+      "id": 17,
+      "name": "jake",
+      "email": "jake@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 5.42,
+      "createdAt": "2022-06-28T23:42:41.230Z",
+      "receipt": "2 x Rice Krispies @ 0.99\n2 x Flamin Hot Cheetos @ 1.50"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 4
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 13.03,
+      "createdAt": "2022-06-29T16:09:21.755Z",
+      "receipt": "4 x Flamin Hot Cheetos @ 1.50\n2 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 3
+        }
+      ],
+      "total": 12.98,
+      "createdAt": "2022-06-29T16:11:49.875Z",
+      "receipt": "3 x Rice Krispies @ 0.99\n3 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 4
+        },
+        {
+          "itemId": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 7.6,
+      "createdAt": "2022-06-29T16:12:38.491Z",
+      "receipt": "4 x Flamin Hot Cheetos @ 1.50\n1 x Rice Krispies @ 0.99"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 6,
+          "quantity": 3
+        }
+      ],
+      "total": 65.22,
+      "createdAt": "2022-06-29T16:12:59.205Z",
+      "receipt": "3 x Bar Code Shirts @ 19.99"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 3
+        }
+      ],
+      "total": 8.12,
+      "createdAt": "2022-06-29T16:13:55.644Z",
+      "receipt": "3 x Rice Krispies @ 0.99\n3 x Flamin Hot Cheetos @ 1.50"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        }
+      ],
+      "total": 3.23,
+      "createdAt": "2022-06-29T16:14:34.737Z",
+      "receipt": "3 x Rice Krispies @ 0.99"
+    },
+    {
+      "id": 17,
+      "name": "Giphy Party",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 3.26,
+      "createdAt": "2022-06-29T16:15:02.771Z",
+      "receipt": "2 x Flamin Hot Cheetos @ 1.50"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 7,
+          "quantity": 2
+        }
+      ],
+      "total": 15.75,
+      "createdAt": "2022-06-29T16:15:31.905Z",
+      "receipt": "3 x Flamin Hot Cheetos @ 1.50\n2 x Striped Socks @ 4.99"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 1,
+          "quantity": 3
+        }
+      ],
+      "total": 8.12,
+      "createdAt": "2022-06-29T16:16:32.329Z",
+      "receipt": "3 x Flamin Hot Cheetos @ 1.50\n3 x Rice Krispies @ 0.99"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": "1",
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 9.73,
+      "createdAt": "2022-06-29T17:17:18.688Z",
+      "receipt": "3 x Rice Krispies @ 0.99\n2 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "g8",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 2.15,
+      "createdAt": "2022-06-29T17:19:52.747Z",
+      "receipt": "2 x Rice Krispies @ 0.99"
+    },
+    {
+      "id": 17,
+      "name": "dsasfasf",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 11.4,
+      "createdAt": "2022-06-29T17:20:05.674Z",
+      "receipt": "3 x Flamin Hot Cheetos @ 1.50<br>2 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 4.86,
+      "createdAt": "2022-06-29T17:20:52.097Z",
+      "receipt": "3 x Rice Krispies @ 0.99<br>1 x Flamin Hot Cheetos @ 1.50"
+    },
+    {
+      "id": 17,
+      "name": "hi",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 8.67,
+      "createdAt": "2022-06-29T17:21:21.898Z",
+      "receipt": "2 x Rice Krispies @ 0.99\n2 x Flamin Hot Cheetos @ 1.50\n1 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "Giphy Party",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:22:57.887Z",
+      "receipt": "1 x Flamin Hot Cheetos @ $1.50\n1 x Cinnamon Rolls @ $2.99"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:25:28.959Z",
+      "receipt": [
+        "1 x Rice Krispies @ $0.99 \n",
+        "1 x Flamin Hot Cheetos @ $1.50 \n"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sdfsdaf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:25:46.780Z",
+      "receipt": [
+        "1 x Rice Krispies @ $0.99 \n",
+        "1 x Flamin Hot Cheetos @ $1.50 \n"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "dsasfasf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:26:47.483Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99\n",
+        "1 x Flamin Hot Cheetos @ 1.50\n"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:29:01.731Z",
+      "receipt": "1 x Flamin Hot Cheetos @ 1.50<br></br>1 x Cinnamon Rolls @ 2.99"
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 3.78,
+      "createdAt": "2022-06-29T17:30:25.503Z",
+      "receipt": [
+        "2 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sdfsdaf",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 5.96,
+      "createdAt": "2022-06-29T17:33:07.315Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:34:57.269Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "dsasfasf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 4,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 6.79,
+      "createdAt": "2022-06-29T17:35:24.188Z",
+      "receipt": [
+        "1 x Coconut Water @ 3.25",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "dsasfasf",
+      "email": "hi",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        },
+        {
+          "itemId": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 5.96,
+      "createdAt": "2022-06-29T17:36:52.377Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99",
+        "1 x Rice Krispies @ 0.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:37:37.520Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sdfsdaf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:38:30.883Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:39:21.656Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sdfsdaf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:40:30.010Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sdfsdaf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:41:20.661Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 2.71,
+      "createdAt": "2022-06-29T17:43:09.499Z",
+      "receipt": [
+        "1 x Rice Krispies @ 0.99",
+        "1 x Flamin Hot Cheetos @ 1.50"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "hjjjjkjk",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:43:47.920Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "dsasfasf",
+      "email": "preetin@fb.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 4.88,
+      "createdAt": "2022-06-29T17:50:26.471Z",
+      "receipt": [
+        "1 x Flamin Hot Cheetos @ 1.50",
+        "1 x Cinnamon Rolls @ 2.99"
+      ]
+    }
+  ]
 }

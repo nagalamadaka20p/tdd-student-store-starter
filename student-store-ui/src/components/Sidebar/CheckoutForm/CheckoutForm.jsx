@@ -1,9 +1,10 @@
 import "./CheckoutForm.css"
 import { Link } from "react-router-dom"
 
-export default function CheckoutForm({isOpen, checkoutForm, shoppingCart, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, error}){
+export default function CheckoutForm({isOpen, checkoutForm, shoppingCart, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, error, receipt, setReceipt}){
+    console.log('receipt: ', receipt);
     console.log('error: ', error);
-    let error2 = JSON.stringify(error);    
+    let error2 = JSON.stringify(error); 
     return(
         <div className="checkout-form">
             <h2 className="CheckoutBelow">Checkout Below!</h2>
@@ -15,9 +16,16 @@ export default function CheckoutForm({isOpen, checkoutForm, shoppingCart, handle
             className="checkout-form-input" value={checkoutForm.name}
             onChange={(e) => {handleOnCheckoutFormChange("name", e.target.value)}} />
             
-            <button className="checkout-button" onClick={() => handleOnSubmitCheckoutForm(checkoutForm, shoppingCart)}> Checkout </button>
+            <button className="checkout-button" onClick={() => handleOnSubmitCheckoutForm(checkoutForm, shoppingCart, receipt, setReceipt)}> Checkout </button>
             {error == "success" ? 
-                <h3 className="success">{`Success! You can expect to receive your items soon!`}</h3> : 
+            <div className="success">
+                <h3 className="success">{`Success! You can expect to receive your items soon!`}</h3>
+                {receipt.map((line) => {
+                    return <p className="receipt-line">{line}</p>
+                })}
+                
+            </div>
+                : 
                 <h3 className="error">{error2}</h3>}
 
         </div>

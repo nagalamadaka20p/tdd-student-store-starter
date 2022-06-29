@@ -20,16 +20,19 @@ export default function App() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [shoppingCart, setShoppingCart] = useState([]);
+  
   const [checkoutForm, setCheckoutForm] = useState({});
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
+  const [receipt, setReceipt] = useState("");
   const URL = "https://codepath-store-api.herokuapp.com/store";
+  const API_BASE_URL = "http://localhost:3001";
 
   const getData = async () => {
     setIsFetching(true);
     let filteredItems = [];
     try {
-      const { data } = await axios.get(URL);
+      const { data } = await axios.get(API_BASE_URL+"/store");
 
       if (data.products.length == 0) {
         setError("no products");
@@ -103,7 +106,6 @@ export default function App() {
     const newItem = {
       itemId: productId,
       quantity: 1,
-      key: productId,
     };
     setShoppingCart([...shoppingCart, newItem]);
   }
@@ -132,7 +134,7 @@ export default function App() {
     setCheckoutForm(newForm);
   }
 
-  function handleOnSubmitCheckOutForm(checkoutForm, shoppingCart) {
+  function handleOnSubmitCheckOutForm(checkoutForm, shoppingCart, receipt, setReceipt) {
 
     let userOrder = {
       user: checkoutForm,
@@ -141,14 +143,18 @@ export default function App() {
     
 
     axios
-      .post(URL,  userOrder )
+      .post(API_BASE_URL+"/store",  userOrder)
       .then(function (response) {
-        console.log(response)
+        let {data} = response;
+        let {purchase} = data;
         
+        let recepitToPrint = purchase.receipt;
+        
+        setReceipt(recepitToPrint)
         setError("success");
       })
       .catch(function (error) {
-        console.log(error)
+        
         setError("problem fetching data");
         if (userOrder.shoppingCart.length == 0) {
           setError("please add items to cart");
@@ -174,6 +180,9 @@ export default function App() {
     setProducts(searchResults);
   }
 
+  
+  
+
   return (
     <div className="app">
       <BrowserRouter>
@@ -186,6 +195,8 @@ export default function App() {
               checkoutForm={checkoutForm}
               handleOnCheckoutFormChange={handleOnCheckoutFormChange}
               handleOnSubmitCheckoutForm={handleOnSubmitCheckOutForm}
+              receipt = {receipt}
+              setReceipt = {setReceipt}
               handleOnToggle={handleOnToggle}
               error={error}
             />

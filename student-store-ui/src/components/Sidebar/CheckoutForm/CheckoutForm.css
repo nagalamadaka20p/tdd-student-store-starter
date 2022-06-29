@@ -8,5 +8,27 @@
 .success{
     color: #e0e9cd;
     margin-right: 15px;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.receipt-line{
+    font-size: 16px;
+}
+
+.checkout-form-input{
+    margin-left: 0px;
+}
+
+.checkout-button{
+    width: 175px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e0e9cd;
+    margin: 10px;
+    margin-left: 3px;
+    display: block;
+    text-align: center;
 }

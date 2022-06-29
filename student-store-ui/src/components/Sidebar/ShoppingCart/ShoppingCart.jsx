@@ -40,7 +40,10 @@ export default function ShoppingCart({isOpen, products, shoppingCart}){
         <div className="shopping-cart">
             
             {shoppingCart.length == 0? 
-            <h3 className="notification">"No items added to cart yet. Start shopping now!"</h3>
+            <div className="shopping-cart-empty">
+                <h3 className="notification">No items added to cart yet.</h3>
+                <h3 className="notification">Start shopping now!</h3>
+            </div>
             :
             <div>
                 <h1 className="item">Items in Cart</h1>
